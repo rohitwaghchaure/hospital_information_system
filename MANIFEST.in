@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hospital_information_system *.css
+recursive-include hospital_information_system *.csv
+recursive-include hospital_information_system *.html
+recursive-include hospital_information_system *.ico
+recursive-include hospital_information_system *.js
+recursive-include hospital_information_system *.json
+recursive-include hospital_information_system *.md
+recursive-include hospital_information_system *.png
+recursive-include hospital_information_system *.py
+recursive-include hospital_information_system *.svg
+recursive-include hospital_information_system *.txt
+recursive-exclude hospital_information_system *.pyc
